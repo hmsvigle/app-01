@@ -9,10 +9,10 @@ configmapPath: "../apps/app-01/configmap.yaml"  # Updated path
 
 
 image:
-  repository: nginx
+  repository: hmsvigle/nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "01"
 
 service:
   type: ClusterIP
