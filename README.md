@@ -1,4 +1,4 @@
-# Helm Example Repository
+# Steps to create Helm Package & publish to helm repo for future use
 ## 1. helm_repo structure
   * Replicated helm_ngil repo
   * application structure is as bellow
